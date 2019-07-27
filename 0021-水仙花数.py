@@ -12,7 +12,7 @@ def find_shuxianhua():
     result = []
     for i in range(100, 1000):
         b, s, g = list(str(i))
-        # print(b, s, g)
+        #  print(b, s, g)
         if i == (int(b) ** 3 + int(s) ** 3 + int(g) ** 3):
             result.append(i)
             count += 1
