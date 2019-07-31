@@ -50,7 +50,7 @@ def show_prior(root):
 
 if __name__ == '__main__':
     # 将以下数据构造成二叉树
-    array_data = [3, 2, 4, 9, 34, 53, 23, 43, 95, 6]
+    array_data = [3, 2, 4, 9, 34, 53, 23, 43, 95]
     root = BiTree(array_data[0])
     root = build_tree(root, array_data)
     show_prior(root)
