@@ -1,7 +1,4 @@
-"""
-
-@file   : 语音合成.py
-
+'''
 @author : xiaolu
 
 @time   : 2019-09-23
@@ -9,6 +6,7 @@
 """
 '''
 使用方法:
+    安装: pip install baidu-aip
     网址: https://console.bce.baidu.com/ai/?_=1569224386927&fromai=1#/ai/speech/app/list
 '''
 from aip import AipSpeech
