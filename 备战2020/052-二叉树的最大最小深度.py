@@ -81,13 +81,13 @@ class Solution:
 
 if __name__ == '__main__':
     # 首先构造二叉树
-    # 前序遍历
-    preorder = [3, 9, 20, 15, 7]
     # 中序遍历
     inorder = [9, 3, 15, 20, 7]
+    # 后序遍历
+    postorder = [9, 15, 7, 20, 3]
 
     sol = Solution()
-    root = sol.buildTree(preorder, inorder)
+    root = sol.buildTree(inorder, postorder)
     depth = sol.maxDepth(root)
     print('二叉树的最大深度为:', depth)
 
